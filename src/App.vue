@@ -1,28 +1,34 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Minimo v-if="true" />
+    <CardDivider v-if="true" class="mx-auto" />
+    <below-divider v-if="true" />
+    <Footer v-if="true" />
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Minimo from "./components/Minimo";
+import CardDivider from "./components/CardDivider";
+import BelowDivider from "./components/BelowDivider.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
+  components: {
+    Minimo,
+    CardDivider,
+    BelowDivider,
+    Footer,
+  },
+
+  data: () => ({
+    //
+  }),
+};
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
