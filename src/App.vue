@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Minimo v-if="true" />
-    <CardDivider v-if="true" class="mx-auto" />
-    <below-divider v-if="true" />
-    <Footer v-if="true" />
+    <Minimo  />
+    <CardDivider  class="mx-auto" />
+    <below-divider  />
+    <Footer  />
     
   </div>
 </template>

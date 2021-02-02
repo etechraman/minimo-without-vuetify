@@ -38,50 +38,6 @@
               </div>
             </div>
           </div>
-        <!-- <v-row>
-          <v-col
-            lg="6"
-            md="6"
-            sm="12"
-            xs="12"
-            class="cardGridColumn d-flex justify-center"
-            v-for="(item, index) in cards"
-            :key="index"
-          >
-            <v-card :loading="loading" max-width="474">
-              <template slot="progress">
-                <v-progress-linear
-                  color="deep-purple"
-                  height="10"
-                  indeterminate
-                ></v-progress-linear>
-              </template>
-
-              <v-img
-                v-show="true"
-                class="cardImage"
-                ref="cardImage"
-                fluid
-                height="280"
-                :src="item.src"
-              ></v-img>
-
-              <v-card-title>
-                <div class="card-heading">{{ item.cat }}</div>
-              </v-card-title>
-
-              <v-card-text class="card-text">
-                <div class="card-title ">
-                  {{ item.title }}
-                </div>
-
-                <div class="card-description">
-                  {{ item.desc }}
-                </div>
-              </v-card-text>
-            </v-card>
-          </v-col>
-        </v-row> -->
       </div>
     </div>
     <div class="loadMore">

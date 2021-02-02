@@ -57,27 +57,11 @@
           </div>
         </div>
 
-        <!-- <v-container>
-          <v-row
-            ><v-col cols="12" class="enterEmailAddress">
-              <v-text-field label="Enter a valid email address" clearable
-                ><template slot="append">
-                  <v-img src="../assets/sendIcon.png"></v-img>
-                </template>
-              </v-text-field> </v-col
-          ></v-row>
-        </v-container> -->
       </div>
     </div>
   </div>
 </template>
 <style>
-/* .ddddd {
-  font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 15px;
-  color: rgba(98, 98, 98, 255);
-  text-align: left;
-} */
 .cardsDivider {
   width: 100%;
   background-color: #cccccc;
@@ -557,18 +541,6 @@ textarea {
   min-width: 1px;
   position: relative;
 }
-/* 
-.sendIcon {
-  padding: 0px !important;
-  font-family: PlayfairDisplay-Regular, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 14pt;
-  color: rgba(98, 98, 98, 255);
-  text-align: right;
-}
-.line {
-  padding-left: 0px !important;
-} */
-
 @media (min-width: 960px) {
   .container {
     max-width: 900px;

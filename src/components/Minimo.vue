@@ -118,37 +118,15 @@
                     style="width: 948px;"
                   ></div>
                 </div>
-                <!-- <v-img
-                  v-show="true"
-                  class="cardImage"
-                  ref="cardImage"
-                  fluid
-                  height="280"
-                  :src="item.src"
-                ></v-img> -->
 
                 <div class="v-card__title">
                   <div class="card-heading">LIFESTYLE</div>
                 </div>
-                <!-- 
-                <v-card-title>
-                  <div class="card-heading">{{ item.cat }}</div>
-                </v-card-title> -->
 
                 <div class="v-card__text card-text">
                   <div class="card-title ">{{ item.title }}</div>
                   <div class="card-description">{{ item.desc }}</div>
                 </div>
-
-                <!-- <v-card-text class="card-text">
-                  <div class="card-title ">
-                    {{ item.title }}
-                  </div>
-
-                  <div class="card-description">
-                    {{ item.desc }}
-                  </div>
-                </v-card-text> -->
               </div>
             </div>
           </div>
@@ -206,9 +184,6 @@ export default {
         },
       ],
     };
-  },
-  mounted() {
-    // this.$refs.cardImagePng.style.backgroundImage='url(' + imgArray[curIndex % 3] + ')';
   },
   methods: {
     onClickOutside() {
